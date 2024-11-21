@@ -1,0 +1,95 @@
+
+.testimonial-container {
+    background-color: #ffffff;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .testimonial-content {
+    
+    text-align: center;
+    padding: 1rem 1rem;
+  }
+  
+  .logo-container {
+    margin-bottom: 1rem;
+  }
+  
+  .company-logo {
+    height: 32px;
+    
+    width: auto;
+  }
+  
+  .testimonial-quote {
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #111827;
+    max-width: 900px;
+    margin: 0 auto 3rem auto;
+  }
+  
+  .profile-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .profile-image {
+    width: 48px;
+    text-align: center;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .profile-info {
+    text-align: left;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  
+  
+  .profile-name {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #111827;
+    margin: 0;
+    text-align: center;
+    line-height: 1.4;
+  }
+  
+  .profile-title {
+    font-size: 1rem;
+    color: #6b7280;
+    margin: 0;
+    line-height: 1.4;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .testimonial-quote {
+      font-size: 2.5rem;
+      padding: 0 1rem;
+    }
+    
+    .testimonial-content {
+      padding: 2rem 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .testimonial-quote {
+      font-size: 2rem;
+    }
+  }

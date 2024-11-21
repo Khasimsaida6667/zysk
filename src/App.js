@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import React from 'react';
+import Header from './components/Header';
+import HeroSection from './components/HeroSection';
+import SocialProof from './components/SocialProof';
+import FeaturesSection from './components/FeaturesSection';
+import SisyphusUI from './components/SisyphusUI';
+import CuttingFeature from './components/CuttingFeature'
+import FaqSection from './components/FaqSection'
+import BlogLayout from './components/BlogLayout'
+import Free from './components/Free'
+import Last from './components/Last';
+
+import Touch from './components/Touch';
+
+
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='back'>
+      <Header />
+      <HeroSection />
+    
+      <SocialProof />
+      <FeaturesSection />
+      <SisyphusUI/>
+      <CuttingFeature/>
+      <FaqSection/>
+      <Touch/>
+      <BlogLayout/>
+      <Free/>
+      <Last/>
     </div>
   );
-}
+};
 
 export default App;

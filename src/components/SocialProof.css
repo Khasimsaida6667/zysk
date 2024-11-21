@@ -1,0 +1,44 @@
+.social-proof {
+    text-align: center;
+    padding: 40px;
+    background-color: #ffffff;
+  }
+  
+  .social-proof h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333333;
+    cursor: pointer;
+
+  }
+  
+  .social-proof p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #666666;
+  }
+  
+  .social-proof .logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .social-proof .logos img {
+    max-width: 120px;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+  }
+  
+  .social-proof .logos img:hover {
+    opacity: 1;
+  }
